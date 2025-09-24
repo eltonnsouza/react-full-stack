@@ -1,6 +1,11 @@
 ### ( 10 ) GitHub
 ### ( 10 ) CMD
 
+#### Baixando do gitHub
+* [] git clone
+* [] baixar como zip
+
+#### Salvamos no Git
 * Salvar no github
 * git add .
 * git commit -m "atualizei o backend"
