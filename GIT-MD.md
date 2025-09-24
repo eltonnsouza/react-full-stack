@@ -2,7 +2,7 @@
 ### ( 10 ) CMD
 
 #### Baixando do gitHub
-* [] git clone
+* [] git clone.
 * [] baixar como zip
 
 #### Salvamos no Git

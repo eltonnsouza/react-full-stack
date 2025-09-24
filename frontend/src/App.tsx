@@ -9,7 +9,7 @@ import ModeEditOutlinedIcon from '@mui/icons-material/ModeEditOutlined';
 import TableRow from '@mui/material/TableRow';
 import IconButton from '@mui/material/IconButton';
 
-// Tipo Cliente baseado na tabela tb_cliente
+// Tipo Cliente baseado na tabela tb_cliente.
 type Cliente = {
   id?: number;
   nome: string;
