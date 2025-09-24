@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+.hearts{
+    color:red
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-Perfil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuIcon{
+    margin-right: 10px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 5px;
+}
+.input-full{
+    width: 100%;
+}
+
+.card-body{
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-header-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.btn-item-plus{
+    color: blue;
+    cursor: pointer;
+}
+
+.red-500{
+    background-color: #e53935;
+}
