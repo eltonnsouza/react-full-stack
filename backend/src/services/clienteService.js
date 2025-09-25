@@ -1,6 +1,8 @@
 const { supabase } = require('../utils/supabaseClient');
 
 const ClientesService = {
+  
+  /** Lista todos os clientes */
   async getClientes() {
     const { data, error } = await supabase
       .from('tb_cliente')
@@ -10,6 +12,7 @@ const ClientesService = {
     return data;
   },
 
+  /** busca um cliente por id */
   async getClienteById(id) {
     const { data, error } = await supabase
       .from('tb_cliente')
@@ -20,6 +23,7 @@ const ClientesService = {
     return data;
   },
 
+  /** Inserir na tabela tb_cliente */
   async createCliente(cliente) {
     const { data, error } = await supabase
       .from('tb_cliente')
@@ -40,6 +44,7 @@ const ClientesService = {
     return data;
   },
 
+  /** Atualiza um cliente */
   async updateCliente(id, updates) {
     const { data, error } = await supabase
       .from('tb_cliente')
@@ -61,6 +66,7 @@ const ClientesService = {
     return data;
   },
 
+  /** Apaga um cliente */
   async deleteCliente(id) {
     const { error } = await supabase
       .from('tb_cliente')
@@ -68,6 +74,7 @@ const ClientesService = {
       .eq('id', id);
     if (error) throw new Error(error.message);
   }
+
 };
 
 module.exports = { ClientesService };
