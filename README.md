@@ -1,8 +1,10 @@
 # Gerenciamento de Clientes com React, MUI e Supabase
-backend
+cd backend
+npm install
 node src/swagger.js
 
-frontend
+cd frontend
+npm install
 npm run dev
 
 **Recursos Criados**
