@@ -1,4 +1,4 @@
-# Gerenciamento de Clientes com React, MUI e Supabase
+# Gerenciamento de Clientes com React, MUI e Supabase.
 cd backend
 npm install
 node src/swagger.js
