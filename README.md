@@ -16,7 +16,7 @@ npm run dev
 ***Excluir Clientes***
 ***Contador de Clientes***
 
-Este projeto é uma aplicação web completa para gerenciamento de produtos, construída com 
+Este projeto é uma aplicação web completa para gerenciamento de produtos, construída com :
 **React 19**
 **TypeScript** Ele se destaca por sua interface moderna e responsiva, usando 
 **Material-UI (MUI)** para o design 
