@@ -1,7 +1,9 @@
 # Gerenciamento de Clientes com React, MUI e Supabase.
+entrar nos diretorios para dar o comando
 cd backend
 npm install
 node src/swagger.js
+ctrl + c para parar de rodar 
 
 cd frontend
 npm install
